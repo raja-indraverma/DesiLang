@@ -296,12 +296,12 @@ class Parser:
 			else:
 				return res.failure(InvalidSyntaxError(
 					self.current_tok.pos_start, self.current_tok.pos_end,
-					"Expected ')'"
+					"shayad ')' lagaana bhool gaye aap"
 				))
 
 		return res.failure(InvalidSyntaxError(
 			tok.pos_start, tok.pos_end,
-			"Expected int or float"
+			"int ya float hona chahiye tha yaha"
 		))
 
 	def term(self):
