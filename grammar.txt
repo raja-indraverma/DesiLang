@@ -13,5 +13,6 @@ atom    : INT:FLOAT
 
 return [], IllegalCharError(pos_start, self.pos, "'" + char + "'" + " kya hota hai? mujhe nahi pata")
 "Expected '+', '-', '*' or '/', code likhne ka tareeka thoda casual hai"
-
+"shayad ')' lagaana bhool gaye aap"
+"int ya float hona chahiye tha yaha"
 'zero se divide nahi kr skte',
